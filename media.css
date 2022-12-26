@@ -1,0 +1,24 @@
+@media (max-width: 1024px) {
+    ul {
+        display: none;
+    }
+    nav {
+        background-image: url("./images/slide-icon.png");
+        content: "";
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 50px;
+        height: 45px;
+    }
+    .additional-info-div {
+        flex-direction: column;
+        row-gap: 50px;
+    }
+    .grid-container {
+        grid-template-columns: 2fr;
+        gap: 10px;
+    }
+    .grid-box {
+        border-radius: 10px;
+    }
+}

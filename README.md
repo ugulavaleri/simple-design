@@ -1,1 +1,1 @@
-# Homework-10
+small responsive design without javascript.
